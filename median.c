@@ -19,7 +19,9 @@ a[i+1]=temp;
 }
 }
 }
-for(i=0;i<n;i++)
-
-printf("%d",x);
-}
+i=i/2;
+for(i=0;i<1;i++)
+{
+printf("%d",a[i]);
+}}
+	
