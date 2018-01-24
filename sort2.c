@@ -1,20 +1,20 @@
 #include<stdio.h>
 int main(){
-    int i,j,k,a[100],n,t;
+    int i,j,l,a[100],num,t;
     scanf("%d",&n);
-    for(i=1;i<=n;i++)
+    for(i=1;i<=num;i++)
     {
         scanf("%d",&a[i]);
     }
-    for(j=1;j<=n;j++)
+    for(j=1;j<=num;j++)
     {
-        for(k=j+1;k<=n;k++)
+        for(l=j+1;l<=num;l++)
         {
-            if(a[j]>a[k])
+            if(a[j]>a[l])
             {
                 t=a[j];
-                a[j]=a[k];
-                a[k]=t;
+                a[j]=a[l];
+                a[l]=t;
             }
         }
     }
