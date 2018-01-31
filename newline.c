@@ -2,7 +2,7 @@
 int main()
 {
     char str[200];
-    int count=1, i;
+    int count=0, i;
     printf("Enter the String\n");
     scanf("%[^\n]s", str);
     for (i = 0;str[i]!='\0';i++)
@@ -12,5 +12,5 @@ int main()
     		count++;
     	}
     }
-    printf("The no.of lines in the paragaraph %d",count);
+    printf("The no.of lines in the paragaraph %d",count+1);
 }
