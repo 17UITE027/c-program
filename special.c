@@ -10,5 +10,5 @@ int main()
        if (str[i] == '*' || str[i] == '&' || str[i] == '#' || str[i] == '(' || str[i] == ')')
        n++;    
     }
-    printf("number of words in given string are %d\n", n);
+    printf("number of Special character in given string are %d\n", n);
 }
