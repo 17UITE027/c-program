@@ -1,22 +1,20 @@
 
 #include<stdio.h>
-#include<conio.h>
-void main()
+int main()
 {
   int a;
   printf("Enter the number to be check");
   scanf("%d",&a);
   if(a<0)
   {
-    printf("The given number is negative number");
+    printf("Negative");
   }
   else if(a>0)
   {
-    printf("The given number is positive number");
+    printf("Positive");
   }
   else
   {
-    printf("The given number is Zero");
+    printf("Zero");
   }
-  getch();
 }
